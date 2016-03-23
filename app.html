@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Demo Task Tracker App</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    
+    <!--Libraries-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    
+    <!--Styles-->
+    <link rel="stylesheet" href="css/homepage.css" />
+    <link rel="stylesheet" href="css/app.css">
+   
+   
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="container">
+        <a href="#" class="logo">Task Tracker</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon pull-right" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><div>Hello, user!</div></li>
+          <li><div id="signOut">Sign Out</div></li>
+        </ul>
+      </div>  
+    </nav>
+    <section class="appArea">
+      <div class="container">
+      
+      <div>
+        <h4 class="text-center">Add Task</h4>
+        <div class="row form">
+         <div class="col-md-offset-4 col-md-8">
+          <div class="form-container"><input class="form-input" placeholder="Add item" id="taskInput"></div>
+          <button id="addTask" class="btn btn-add"><i class="fa fa-plus"></i></button>
+          <button id="removeTask" class="btn btn-rmv"><i class="fa fa-trash"></i></button>
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6 col-md-offset-3">
+            <ul id="taskList" class="list">
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      
+      </div>
+    </section>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <!--Libraries-->
+    <script src="js/homepage.js"></script>
+    <script src="js/app.js"></script>
+    
+  </body>
+</html>
