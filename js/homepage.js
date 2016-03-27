@@ -10,8 +10,6 @@ function frontpage() {
     items: 1,
     autoplay: true
   });
-  
-  //Validation
    
   //Modal
   var ModalEffects = (function() {
